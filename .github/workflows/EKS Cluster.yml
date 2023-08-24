@@ -21,4 +21,4 @@ jobs:
           aws-region: 'us-east-1'
           cluster-name: 'EKSProject'
           command: |
-            kubectl apply -f
+            kubectl apply -f stage/deployment.yaml
